@@ -35,6 +35,7 @@ while True:
         resultado = restar(num1, num2)
         
 >>>>>>> Santiago
+
 <<<<<<< HEAD
 =======
     if opcion == "3":
@@ -42,5 +43,5 @@ while True:
     elif opcion == "4":
         resultado = division(num1, num2)
 
-        print(f"Resultado: {resultado}\n")
+    print(f"Resultado: {resultado}\n")
 >>>>>>> cristian
