@@ -1,20 +1,22 @@
-from funciones import sumar, restar
+from funciones import sumar, restar, multiplicacion, division
 
 def mostrar_menu():
     print("Calculadora Básica")
     print("1. Sumar")
     print("2. Restar")
-    print("3. Salir")
+    print("3. Multiplicación")
+    print("4. División")
+    print("5. Salir")
 
 while True:
     mostrar_menu()
-    opcion = input("Elige una opción (1-3): ")
+    opcion = input("Elige una opción: ")
 
-    if opcion == "3":
+    if opcion == "5":
         print("bye bye")
         break
 
-    if opcion not in {"1", "2"}:
+    if opcion not in {"1", "2", "3", "4"}:
         print("El número no está en la lista\n")
         continue
 
@@ -29,5 +31,3 @@ while True:
         resultado = sumar(num1, num2)
     elif opcion == "2":
         resultado = restar(num1, num2)
-
-    print(f"Resultado: {resultado}\n")
