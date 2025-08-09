@@ -1,6 +1,6 @@
-if opcion == "3":
+    if opcion == "3":
         resultado = multiplicacion(num1, num2)
-        elif opcion == "":
+    elif opcion == "4":
         resultado = division(num1, num2)
 
         print(f"Resultado: {resultado}\n")
