@@ -3,4 +3,4 @@
     elif opcion == "4":
         resultado = division(num1, num2)
 
-        print(f"Resultado: {resultado}\n")
+    print(f"Resultado: {resultado}\n")
