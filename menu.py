@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from funciones import multiplicacion, division
 def mostrar_menu():
     print("Seleccione una operación:")
@@ -64,3 +65,11 @@ while True:
 
     print(f"Resultado: {resultado}\n")
 >>>>>>> 59f3fc742e8891305e10ba5b78311dbf55cd9730
+=======
+if opcion == "3":
+        resultado = multiplicacion(num1, num2)
+        elif opcion == "":
+        resultado = division(num1, num2)
+
+        print(f"Resultado: {resultado}\n")
+>>>>>>> cristian
