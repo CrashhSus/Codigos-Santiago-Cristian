@@ -31,3 +31,4 @@ while True:
         resultado = sumar(num1, num2)
     elif opcion == "2":
         resultado = restar(num1, num2)
+        
